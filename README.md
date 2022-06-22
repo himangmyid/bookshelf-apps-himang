@@ -1,4 +1,4 @@
-# bookshelf-apps-himang
+# bookshelf-apps-himang Submission Aplikasi Pengelolaan Data Menggunakan DOM dan Web Storage Dicoding.com
 Submission Anda akan dinilai oleh Tim Reviewer guna menentukkan kelulusan Anda. Untuk lulus dari kelas ini, proyek Bookshelf Apps harus memenuhi seluruh kriteria yang telah disebutkan pada bagian Kriteria Bookshelf Apps.<br> Submission Anda akan dinilai oleh Tim Reviewer dengan skala 1-5. Untuk mendapatkan nilai tinggi, silakan penuhi saran-saran berikut ini:
 <br><br><br>
 Tambahkan fitur pencarian untuk mem-filter buku yang ditampilkan pada rak sesuai dengan title buku yang dituliskan pada kolom pencarian.<br>
@@ -21,3 +21,6 @@ Bintang 5 : Semua ketentuan terpenuhi dan menerapkan seluruh saran yang diberika
 <br>
 Catatan:
 Jika submission Anda ditolak maka tidak ada penilaian. Kriteria penilaian bintang di atas hanya berlaku jika submission Anda lulus.<br>
+
+
+https://www.himang.my.id/
