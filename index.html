@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookshelf Apps Dicoding</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="head_bar">
+        <h1 class="head_bar_title">Bookshelf Apps Dicoding</h1>
+    </header>
+    <main>
+        <section class="input-sec">
+            <h2>Masukkan Buku Baru</h2>
+            <form id="inputBuku">
+                <div class="input">
+                    <label for="inputJudul">Judul Buku</label>
+                    <input id="inputJudul" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="inputPenulis">Penulis Buku</label>
+                    <input id="inputPenulis" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="inputTahun">Tahun Terbit Buku</label>
+                    <input id="inputTahun" type="number" required>
+                </div>
+                <div class="input">
+                    <label for="inputTarget">Target Buku Selesai</label>
+                    <input id="inputTarget" type="date" required>
+                </div>
+                <div class="input_inline">
+                    <label for="inputBukuSelesai" id="inputBukuSelesaiLabel">Buku selesai dibaca</label>
+                    <input id="inputBukuSelesai" type="checkbox">
+                </div>
+                <button id="submitBuku">Masukkan Buku ke Rak <span id="tipeBuku"><strong>Belum Dibaca</strong></span></button>
+                <button id="editBuku">Masukkan Edit Buku ke Rak <span id="editTipeBuku"><strong>Belum Dibaca</strong></strong></span></button>
+            </form>
+        </section>
+
+        <section class="book_shelf">
+            <h2>Belum Dibaca</h2>
+            <div id="listBelum" class="listBuku">
+            </div>
+        </section>
+
+        <section class="book_shelf">
+            <h2>Selesai Dibaca</h2>
+            <div id="listSudah" class="listBuku">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer"> <small>Copyright &copy; 2022 - <a href="https://www.himang.my.id/">Himang</a></small></div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/dom.js"></script>
+    <script src="js/webStorage.js"></script>
+</body>
+
+</html>

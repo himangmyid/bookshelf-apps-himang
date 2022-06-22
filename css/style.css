@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/library.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body,
+input,
+button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+input,
+button {
+    font-size: 16px;
+}
+
+.head_bar {
+    padding: 18px 12px;
+    text-align: center;
+    justify-content: start;
+    background-color: #2DBF0B;
+    color: #212020;
+}
+
+main {
+    max-width: 500px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 16px;
+}
+
+.input-sec {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 5px solid #2DBF0B;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.input-sec>h2 {
+    text-align: center;
+    color: #2DBF0B;
+    margin-bottom: 20px;
+}
+
+.input-sec>form>.input {
+    margin: 8px 0;
+}
+
+.input-sec>form>button {
+    background-color: #2DBF0B;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.input-sec>form>#editBuku,
+.input-sec>form>#submitBuku {
+    background: #2DBF0B;
+    color: #fff;
+    padding: 8px;
+    width: 75%;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.input-sec>form>#editBuku:active,
+.input-sec>form>#submitBuku:active {
+    background-color: #0d7e25;
+}
+
+.input-sec>form>#editBuku {
+    display: none;
+}
+
+.input-sec>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 65px;
+    margin: 10px 0;
+}
+
+.input-sec>form>.input>label {
+    color: #2DBF0B;
+    font-weight: bold;
+}
+
+.input-sec>form>.input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input-sec>form>.input_inline>label {
+    color: #2DBF0B;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.book_shelf {
+    margin: 35px 0 0 0;
+    border: 5px solid #2DBF0B;
+    padding: 24px;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.book_shelf>h2 {
+    color: #2DBF0B;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book_shelf>.listBuku>.book_item {
+    padding: 16px;
+    border: 2px solid #212020;
+    border-radius: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book_shelf>.listBuku>.book_item>.info>h3,
+p {
+    margin: 8px 0;
+}
+
+.book_shelf>.listBuku>.book_item>.action {
+    display: flex;
+    align-items: center;
+}
+
+.book_shelf>.listBuku>.book_item>.action>button {
+    border: 0;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checklist {
+    background: url('../img/checked.svg');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.checklist:hover {
+    background: url('../img/checked.gif');
+    background-size: contain;
+}
+
+.edit {
+    background: url('../img/editt.svg');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.edit:hover {
+    background: url('../img/edit.gif');
+    background-size: contain;
+    width: 20px;
+}
+
+.trash {
+    background: url('../img/trash.svg');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.trash:hover {
+    background: url('../img/trash.gif');
+    background-size: contain;
+}
+
+.undo {
+    background: url('../img/restart.svg');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.undo:hover {
+    background: url('../img/restart.gif');
+    background-size: contain;
+}
+
+.checklist:focus,
+.trash {
+    outline: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    color: #212020;
+    background-color: #2DBF0B;
+    text-align: center;
+    font-weight: bold;
+}
