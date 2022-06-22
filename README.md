@@ -22,5 +22,6 @@ Bintang 5 : Semua ketentuan terpenuhi dan menerapkan seluruh saran yang diberika
 Catatan:
 Jika submission Anda ditolak maka tidak ada penilaian. Kriteria penilaian bintang di atas hanya berlaku jika submission Anda lulus.<br>
 
+cek jadinya https://himangmyid.github.io/bookshelf-apps-himang/
 
 https://www.himang.my.id/
