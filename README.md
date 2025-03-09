@@ -11,6 +11,12 @@ Custom Dialog ketika menghapus buku.<br>
 Dapat meng-edit buku.<br>
 dsb.<br><br><br>
 
+<p align="center">
+  <a href="https://github.com/himangmyid/bookshelf-apps-himang">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=himangmyid&repo=bookshelf-apps-himang&theme=tokyonight" alt="GitHub Repo Card">
+  </a>
+</p>
+
 Berikut adalah detail penilaian submission:<br><br>
 
 Bintang 1 : Semua ketentuan terpenuhi, namun terdapat indikasi kecurangan dalam mengerjakan submission.<br>
